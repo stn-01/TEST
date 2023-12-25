@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TEST</title>
+
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico')}}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app-css.css')}}">
+
+</head>
+<body>
+
+    <div class="headers">
+        <span class="headers__text">*******************************************</span>
+        <span class="headers__text">TEST</span>
+        <span class="headers__text">*******************************************</span>
+    </div>
+
+    <a id='RandomColorBtn' class="buttons">        
+        <div>...................</div>
+        <div>| Change BG color |</div>
+        <div>'''''''''''''''''''</div>
+    </a>
+
+    <a id='PlayPokSoundBtn' class="buttons">
+        <div>..................</div>
+        <div>| Play pok sound |</div>
+        <div>''''''''''''''''''</div>     
+    </a>
+
+    <a id='XMRRandomColorBtn' class="buttons">
+        <div>....................</div>
+        <div>| Random XMR color |</div>
+        <div>''''''''''''''''''''</div>
+    </a>
+
+    <a id='TypeBtn' class="buttons">
+        <div>.........</div>
+        <div>| print |</div>
+        <div>'''''''''</div>
+    </a>
+
+    <div class="green-text-area">
+        <div id="Carete">
+            <span id="TypedText2"></span>
+        </div>
+    </div>
+
+
+    <script src="{{ url_for('static', filename='js/app-js.js')}}"></script>
+
+</body>
+</html>

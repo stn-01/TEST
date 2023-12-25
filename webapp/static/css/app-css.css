@@ -1,0 +1,45 @@
+
+:root { 
+  --light-green:      rgba(107, 236, 74, 1);
+  --box-shadow-hover:   2px 2px 84px rgba(107, 236, 74, 1);
+  --box-shadow-active:  2px 2px 24px rgba(107, 236, 74, 1);
+  --text-shadow-hover:  1px 1px 2px rgb(0, 241, 181), 
+                        0 0 25px var(--light-green), 
+                        0 0 5px rgb(56, 139, 0);
+}
+
+body {
+  background-color: black;
+  font-family:      'consolas', monospace;
+}
+
+.headers__text {
+  color:            var(--light-green);
+  display:          block;
+  text-align:       center;
+}
+
+.buttons {
+  display:          block;
+  background-color: transparent;
+  width:            max-content;
+  height:           max-content;
+  text-align:       center;
+  cursor:           pointer;
+  color:            var(--light-green);
+  margin:           10px 0 0 10px;
+}
+
+.buttons__text {
+  background-color: transparent;
+}
+
+.buttons:hover {
+  color:          white;
+  text-shadow:      var(--text-shadow-hover);
+}
+
+.green-text-area {
+  color: var(--light-green);
+  margin: 10px 0 0 10px;
+}
